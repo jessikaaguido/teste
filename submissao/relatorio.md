@@ -65,7 +65,7 @@ Para determinação dos percentuais de desenvolvimento do código, foram contabi
 1. classe Farmacia: 8 métodos
 * 50%: 4 métodos
 
-![100%] (.\img\Farmacia_80%.png)
+![100%] (https://github.com/UFAM-ICOMP-IARTES/hierarquia-de-classes-cacadores_de_bug/blob/master/tarefa/assets/img/Farmacia_80%25.png)
 
 <img src= "assets/img/Farmacia_50%.png" alt= "50%: 4 método"/>
 
