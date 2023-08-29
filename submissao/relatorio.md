@@ -2,19 +2,19 @@
 
 **01. Introdução**
 
-O presente trabalho apresenta a hierarquia de uma Farmácia (classe base abstrata) e duas subclasses suas, que abstraem os conceitos de Farmácia de Varejo (FarmaciaVarejo) e de Farmácia Popular (FarmaciaPopular).  
+O presente trabalho apresenta a hierarquia de uma Farmácia (classe base abstrata) e duas subclasses suas, que abstraem os conceitos de Farmácia de Varejo (FarmaciaVarejo) e de Farmácia Popular (FarmaciaPopular).
 
-A abstração de uma Farmácia levou em consideração sua presença no cotidiano da maior parte das pessoas. No caso, atributos como nome, endereço, estoque, clientes, funcionários, descontos e convênios são regularmente lembrados.  
+A abstração de uma Farmácia levou em consideração sua presença no cotidiano da maior parte das pessoas. No caso, atributos como nome, endereço, estoque, clientes, funcionários, descontos e convênios são regularmente lembrados.
 
 Embora apenas duas subclasses tenham sido escolhidas, outras poderiam ser modeladas, a exemplo de Farmácia de Atacado e Farmácia Hospitalar.
 
 **02. A hierarquia.**
 
-A classe Farmacia é a **classe base abstrata**. Ela possui como atributos alguns elementos mínimos que permeiam toda a ideia que se tem de uma Farmácia, isto é, aquilo que frequentemente se imagina quando se pensa numa _farmácia_: nome [_nome_], endereço [_endereco_] e medicamentos à disposição [_estoque_]. Seus métodos, além dos acessores e mutadores, incluem a exibição de dados cadastrais [*exibir_informacoes_cadastrais()*] e do estoque [*exibir_estoque()*]. 
+A classe Farmacia é a **classe base abstrata**. Ela possui como atributos alguns elementos mínimos que permeiam toda a ideia que se tem de uma Farmácia, isto é, aquilo que frequentemente se imagina quando se pensa numa _farmácia_: nome [_nome_], endereço [_endereco_] e medicamentos à disposição [_estoque_]. Seus métodos, além dos acessores e mutadores, incluem a exibição de dados cadastrais [*exibir_informacoes_cadastrais()*] e do estoque [*exibir_estoque()*].
 
 A subclasse FarmaciaVarejo é a abstração de uma Farmácia de Varejo (farmácia que vende ao consumidor final em pequenas quantidades). Por ser uma subclasse, ela **herda** os atributos e métodos da classe base (Farmacia), embora possua e **encapsule** seus próprios atributos: a quantidade de clientes [*quantidade_clientes*] e a quantidade de funcionários [*quantidade_funcionarios*]. Seus métodos próprios, além dos acessores e mutadores, incluem a aquisição de medicamentos para o estoque [*comprar_medicamento()*] e a venda de medicamentos ao consumidor final [*vender_medicamento()*].
 
-A subclasse FarmaciaPopular é a abstração de uma Farmácia Popular (farmácia que vende ao consumidor final com descontos avantajados, geralmente em razão de subsídios e 
+A subclasse FarmaciaPopular é a abstração de uma Farmácia Popular (farmácia que vende ao consumidor final com descontos avantajados, geralmente em razão de subsídios e
 subvenções governamentais). Novamente, em razão da **herança**, ela herda os atributos e métodos da classe base (Farmacia), bem como **encapsula** seus atributos particulares: o percentual de desconto de um dado medicamento [*desconto_medicamentos*] e o faturamento mensal [*faturamento_mensal*]. Seus métodos, além dos acessores e mutadores, incluem a aplicação de desconto numa dada venda [*aplicar_desconto()*] e o cálculo do faturamento anual [*calcular_faturamento_anual()*].
 
 Uma representação gráfica das classes e de como elas estão interligadas - por meio da herança - pode ser conferida no diagrama de classes abaixo:
@@ -65,11 +65,11 @@ Para determinação dos percentuais de desenvolvimento do código, foram contabi
 1. classe Farmacia: 8 métodos
 * 50%: 4 métodos
 
-<img src="./assets/img/Farmacia_50%.png">
+![Farmacia_50%](./assets/img/Farmacia_50%.png)
 
 * 80%: 6 métodos
 
-<img src="./assets/img/Farmacia_80%.png">
+""([./assets/img/Farmacia_80%.png"]
 
 * 100%: 8 métodos
 
@@ -99,7 +99,7 @@ Para determinação dos percentuais de desenvolvimento do código, foram contabi
 
 * 100%: 6 métodos
 
-<img src="./assets/img/FarmaciaPopular_100%.png">  
+<img src="./assets/img/FarmaciaPopular_100%.png">
 
 
 **04. Conclusões.**
