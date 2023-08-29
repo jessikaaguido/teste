@@ -65,7 +65,9 @@ Para determinação dos percentuais de desenvolvimento do código, foram contabi
 1. classe Farmacia: 8 métodos
 * 50%: 4 métodos
 
-![Farmacia_50%](./assets/img/Farmacia_50%.png)
+![Farmacia_50%](/assets/img/Farmacia_50%.png "Farmacia_50%")
+
+![This is an alt text.](/image/sample.png "This is a sample image.")
 
 * 80%: 6 métodos
 
