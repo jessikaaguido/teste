@@ -65,13 +65,11 @@ Para determinação dos percentuais de desenvolvimento do código, foram contabi
 1. classe Farmacia: 8 métodos
 * 50%: 4 métodos
 
-![Farmacia_50%](./assets/img/Farmacia_50%.png "Farmacia_50%")
-
-![This is an alt text.](/image/sample.png "This is a sample image.")
+<img src= "assets/img/Farmacia_50%.png" alt= "50%: 4 método"/>
 
 * 80%: 6 métodos
 
-<!-- ""([./assets/img/Farmacia_80%.png"] -->
+<img src= "assets/img/Farmacia_100%.png" alt= "80%: 6 método"/>
 
 * 100%: 8 métodos
 
